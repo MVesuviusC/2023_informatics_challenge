@@ -25,15 +25,14 @@ will have the chance to win fabulous* prizes**!
 Below are a series of questions of varying difficulty. Each question will be
 worth varying points. Some of these questions are language specific, while
 others can be completed however you'd like. Either way,
+
 **please show your work/code**.
-I've tried to specify in each header if the questions are language specific, but
-feel free to ask for clarification if needed.
 
 I'm writing the questions to be either a task or specific question, such that
 it is unambiguous if the answer is right. If you do the task or answer the
 question correctly you get full points. No partial credit.
 
-I am asking participants to specify their experience level so I can split folks
+I am asking participants to specify their experience level to split folks
 into two categories. I'll be awarding two trophies, one for each category.
 
 -  Beginners are those that are just getting started and have been doing
@@ -42,11 +41,11 @@ informatics regularly for a year or less.
 and if all the beginner questions seem really easy and the harder questions
 don't seem too bad.
 
-There are several questions, so I'm giving two weeks to complete everything. You
-don't have to complete all the questions, I'll be defining winners of the two
-categories based on the highest total points. If you're the only one who enters,
-you can win by answering just one question! Last year there was only one person
-in the beginner category, so they won by default!
+I'm giving two weeks to complete everything. You don't have to complete all the
+questions, I'll be defining winners of the two categories based on the highest
+total points. If you're the only one who enters, you can win by answering just
+one question! Last year there was only one person in the beginner category, so
+they won by default!
 
 Feel free to do internet searches to figure things out, though I'm asking that
 you **don't use chat-GPT or any AI methods** to generate your answers as you
@@ -55,7 +54,7 @@ won't learn anything from that (and that's half the point of all this).
 You can put your answers in-line in the Rmd file or you can provide your answers
 another way if you prefer.
 
-**The due date will be April Xth at 11:59 PM** #############################################################################################################################################################################
+**The due date will be April 18th at 11:59 PM**
 
 Feel free to ask for clarification on anything!
 
@@ -65,87 +64,65 @@ Feel free to ask for clarification on anything!
 
 ------------------------------------------------------------------------
 
-## Git and GitHub
+# Git and GitHub - 5 points per question
+1.  For your submission, fork my repository (https://github.com/MVesuviusC/2023_informatics_challenge) and send me a link to your fork with your results in a public GitHub repository
 
-XX.  For your submission, fork my repository (https://github.com/MVesuviusC/2023_informatics_challenge) and send me a link to your fork with your results in a public GitHub repository
-
-XX.  Make sure your repo includes at least two branches and two commits, with one of your branches merged back into your main branch.
-
+2.  Make sure your repo includes at least two branches and two commits, with one of your new branches merged back into your main branch
 
 # Beginner questions - 1 point per question
 
-## --R-specific-- Data and variable types
+## Basic R data and variable types
+3.  Make a variable containing a vector of five names
 
-1.  Make a variable containing vector of five names
+4.  Make a variable containing a boolean vector where two elements are true and three are false
 
-2.  Make a variable containing a boolean vector where two elements are true and
-three are false
+5.  Use the varible with the boolean values to subset the names variable down to two names inside a new variable
 
-3.  Use the varible with the boolean values to subset the names variable down to
-two names inside a new variable
+6.  Create a varible containing a numeric matrix (10 rows and 10 columns) of random numbers
 
-4.  Create a varible containing a numeric matrix (10 rows and 10 columns) of
-random numbers
-
-5.  Add 1 to every element in your numeric matrix ina single line of code
+7.  Add 1 to every element in your numeric matrix in a single line of code
 
 ## Sequencing basics
+8.  When doing Illumina sequencing, what is the purpose of the "index" read?
 
-XX.  When doing Illumina sequencing, what is the purpose of the "index" read?
-
-XX.  What is the difference between single-ended and paired-ended sequencing?
+9.  What is the difference between single-ended and paired-ended sequencing?
 
 ## Make basic plots
-
-You can access a test dataset in R using the following code (you'll need the
-dplyr or tidyverse package installed):
+You can access a dataset in R using the following code (you'll need the dplyr or tidyverse package installed):
 
 ```{r}
 storms <- dplyr::storms
 ```
 
-If you want to use a language other than R, the data can be downloaded here: https://nationwidechildrens-my.sharepoint.com/:t:/g/personal/matthew_cannon_nationwidechildrens_org/EbYpZRiuizFOjd9nz4vKn38Br8z2hEKnRijltqbzsUgnow?e=pPnNxW
+10.  Using the storms data, make a scatterplot of wind vs pressure
 
-6.  Using the storms data, make a scatterplot of wind vs pressure
+11.  Using the storms data again, make a histogram of pressure
 
-7.  Using the storms data again, make a histogram of pressure
+## Statistics
+12.  Using the storms data, perform a linear regression on the pressure to determine if wind speed is correlated with pressure
 
-## Stats
+13.  When performing PCA, how do you know how many principal components to use for further analysis?
 
-9.  Using the storms data, perform a linear regression on the pressure by category
+14.  What is the purpose of performing a variance stabilization transformation of gene expression values in RNAseq?
 
-When performing PCA, how do you know how many principal components to keep?
+15.  In statistical terms, what is alpha-level ($\alpha$)?
 
-Variance stabilization purpose in RNAseq
-
-something about zero inflation in single-cell
-
-Hard: Monte Carlo
-
-
+16.  If a given event has a probability of success of 0.1, what is the probability of at least one success given three attempts, assuming that each trial is independant?
 
 ## Basic unix commands
+17.  Which single command would you use to change directories from `~/` to `~/data/expt1/pcrs/`?
 
-10.  Which single command would you use to change directories from `~/` to `~/data/expt1/pcrs/`?
+18.  How do you change permissions on a file to disallow all other users from reading it?
 
-11.  How do you change permissions on a file to disallow all other users from reading it?
+19.  How do you rename a file?
 
-12.  How do you rename a file?
+20.  What command creates a new empty file?
 
-13.  What command creates a new empty file?
-
-14.  How do you make a varible in bash?
-
-## Basic stats knowledge
-
-15.  In statistical terms, what is alpha?
-
-
-
+21.  How do you make a varible in bash?
 
 ## Basic file/data formats
 
-19.  What file/data format is this?
+22.  What file/data format is this?
 
 ```{verbatim, max.height='100px'}
 chr10   18595   .       A       .       285     PASS    DP=48;MQSB=1;MQ0F=0;AN=2;DP4=24,24,0,0;MQ=60    GT:DP   0/0:48
@@ -158,7 +135,7 @@ chr10   18601   .       A       .       285     PASS    DP=53;MQSB=1;MQ0F=0;AN=2
 chr10   18602   .       G       .       285     PASS    DP=53;MQSB=1;MQ0F=0;AN=2;DP4=26,27,0,0;MQ=60    GT:DP   0/0:53
 ```
 
-20.  What file/data format is this?
+23.  What file/data format is this?
 
 ```{verbatim, max.height='100px'}
 chr1_KZ114997v1_alt     4592    N       10      AAAAAaAAAA      II1HIIHIDB
@@ -174,7 +151,7 @@ chr1_KZ114997v1_alt     4601    N       11      AAAAAaAAAAA     II=HIHIIHI=
 chr1_KZ114997v1_alt     4602    N       11      T$TTTTtTTTTT    IIGEIHIIHIH
 ```
 
-21.  What file/data format is this?
+24.  What file/data format is this?
 
 ```{verbatim, max.height='100px'}
 @A00498:356:H53CMDRXY:1:2101:1859:1016 1:N:0:CTGACGCG
@@ -195,9 +172,9 @@ CTGACGCG
 FFFFFFFF
 ```
 
-22.  These sequences are all from the same file. What is a possible reason that these sequences are not all the same length?
+25.  These sequences are all from the same file. What is a possible reason that these sequences are not all the same length?
 
-```{verbatim}
+```{verbatim, max.height='100px'}
 @A00498:586:HWWJ3DRX2:1:2101:7238:1063 1:N:0:ATTACTCG+AGGCTATA
 TNTGGCTACACTCCAGATCGCAATATTTGTTTTCATGATGATCTGGGTACTGCCAGCAAGGCTCAGTAGAGTAAATGGTATCAAAAGCAGGATCCTCCAGTTACTTTTCCCGATCTCCATCCAAATATTTTCAGGGGTCAACCTGTACTTC
 +
@@ -216,10 +193,10 @@ TNAAAGAACGCATTTGCACAGCATTACAGATCGCAGGCGGTAGCATGACTTAT
 F#FFFFFFFFFFFFFFFFFFFFFFF:F,FFFFFFFFFFFFFFFFFFFFFFFFF
 ```
 
-XX.  In the previous question, what information does "1:N:0:ATTACTCG+AGGCTATA" represent in the header line?
+26.  In the previous question, what information does "1:N:0:ATTACTCG+AGGCTATA" represent in the header line?
 
 ## Basic troubleshooting
-XX.  I started a new R session and ran the following code and got the following error:
+27.  I started a new R session and ran the following code and got the following error:
 Fix my mistake and explain what I did wrong.
 ```{r}
 ggplot(mtcars, aes(x = cyl, y = mpg)) +
@@ -228,18 +205,18 @@ Error in ggplot(mtcars, aes(x = cyl, y = mpg)) :
   could not find function "ggplot"
 ```
 
-XX.  I started a new R session and ran the following code:
+28.  I started a new R session and ran the following code:
 ```{r}
 summary(mtcars$cy1)
 ```
 
 I didn't get an error, but this output doesn't look right. What is wrong with the code and how can I fix it?
-```{verbatim}
+```{verbatim, max.height='100px'}
 Length  Class   Mode 
      0   NULL   NULL
 ```
 
-XX.  I ran the following code and got this error:
+29.  I ran the following code and got this error:
 Fix my mistake and explain what I did wrong.
 ```{r}
 cutoff_val <- 0.05
@@ -270,46 +247,37 @@ Error: unexpected '}' in "}"
 # Intermediate - 2 points per question
 
 ## Sequences
-
-XX.  TRUE or FALSE. When aligning fastq files to a reference, each pair of R1 and R2 reads (reads that have the same header) must be the same sequence length.
+30.  TRUE or FALSE. When aligning fastq files to a reference, each pair of R1 and R2 reads (reads that have the same header) must be the same sequence length.
 
 ## Make fancy plots
+31.  Using the storms data, make a jitter plot where x is a categorical variable of the wind speed (in bins of 10 knots per bin) and y is pressure. Be sure the colors used are color-blind friendly.
 
-23.  Using the storms data, make a jitter plot where x is a categorical variable of the wind speed (in bins of 10 knots per bin) and y is pressure. Be sure the colors used are color-blind friendly.
+32.  Use plotly to create an interactive plot of the dplyr::starwars data where x is homeworld and y = height. On mouseover, name, height and mass should be displayed. Save the plot as an html file.
 
-24.  Use plotly to create an interactive plot of the dplyr::starwars data where x is homeworld and y = height. On mouseover, name, height and mass should be displayed. Save the plot as an html file.
-
-25.  Make a panel of four plots in a single png file where the plots use geom_point(), geom_histogram(), geom_density(), and geom_boxplot() to describe the mtcars dataset. The plots should be arranged in a 2x2 grid.
+33.  Make a panel of four plots in a single png file where the plots use geom_point(), geom_histogram(), geom_density(), and geom_boxplot() using the storms dataset. The plots should be arranged in a 2x2 grid.
 
 ## Alignment
+34.  When aligning reads using HiSat2, when would you use the --phred64 option?
 
-26.  When aligning reads using HiSat2, when would you use the --phred64 option?
+35.  What does this CIGAR string from a bam file tell you about the alignment?
+124M2D25M1S
 
-27.  What does this CIGAR string tell you about the alignment? 124M2D25M1S
-
-28.  What does the bitwise flag 163 mean?
-
-## --R-specific-- Demonstrate the use of pipes and tidyverse functions
-
-29.  #In R, starting with the mtcars dataset use `filter()` to remove any row
-where cyl is "8" and then use `group_by()` to group the data by gear and then
-use `summarize()` to calculate the average of the mpg column per group. This
-should be in one continuous pipeline without intermediate variables or nested
-functions. Use either pipe (`%>%` or `|>`).
+36.  What does the bitwise flag 163 found in a bam file mean?
 
 ## Bash
-XX.  If you had 1,337 files in a directory and you wanted to change the name of each of them to remove "file_" from their file names, how would you do it in a single line of code (no using semicolons)?
+37.  If you had 1,337 files in a directory and you wanted to change the name of each of them to remove "file_" from their file names, how would you do it in a single line of code (using no semicolons)?
 
 ## Intermediate troubleshooting
-XX.  I ran the following code and got the following error:
+38.  I ran the following code and got the following error:
 Fix my mistake and explain what I did wrong.
 ```{r}
 summary(paste(mtcars$mpg, mtcars$disp "mpg vs disp"))
 Error: unexpected string constant in "summary(paste(mtcars$mpg, mtcars$disp "mpg vs disp""
 ```
 
-XX.  I ran the following code and got the following warning:
-Fix my mistake and explain what I did wrong.
+39.  I ran the following code and got the following warning:
+Should I be concerned about this warning?
+If so, fix my mistake and explain what I did wrong.
 ```{r}
 col_names <- colnames(mtcars)
 
@@ -333,7 +301,8 @@ In max(mtcars[[col_names[i]]]) :
   no non-missing arguments to max; returning -Inf
 ```
 
-XX.  I wrote a loop to make a bunch of plots, but when I run it, nothing is plotted. What is wrong with my code?
+40.  I wrote a loop to make a bunch of plots, but when I run it, nothing is plotted.
+Fix my code and explain what I did wrong.
 ```{r}
 for (col_name in c("mpg", "disp", "hp")) {
     ggplot(mtcars, aes(x = col_name, y = wt)) +
@@ -341,34 +310,33 @@ for (col_name in c("mpg", "disp", "hp")) {
 }
 ```
 
-
 # Hard - 3 points per question
 
 ## R stats
-XX.  When doing a statistical test in R, if you see a p-value of 2.2e-16, what is the special importance of this value compared to any other p-value you might see?
+41.  When doing a statistical test in R, if you see a p-value of 2.2e-16, what is the special importance of this value compared to any other p-value you might see?
 
-XX.  TRUE or FALSE. When doing a statistical test in R, if you see a p-value of 0.05, this means that there is a 5% chance that the null hypothesis is true.
+42.  TRUE or FALSE. When doing a statistical test in R, if you see a p-value of 0.05, this means that there is a 5% chance that the null hypothesis is true
 
 ## 10x single-cell sequencing
-XX.  When sequencing a library created using the 3' 10X kit, what are the recommended sequence lengths for R1, R2, I1 and I2?
+43.  When sequencing a library created using the 3' 10X kit, what are the recommended sequence lengths for R1, R2, I1 and I2?
 
 ## R objects
-XX.  Create a S4 R object to hold the data contained in a single sequence in fastq format
+44.  Create a S4 R object to hold the data contained in a single sequence in fastq format
 
-XX.  Create a method for your S4 object to trim the fastq sequence and quality fields to a length provided as an argument
+45.  Create a method for your S4 object to trim the fastq sequence and quality fields to a length provided as an argument
 
-XX.  Create another class that has a slot to contain a list of your S4 fastq objects, and has a method to read in a fastq file provided as an argument. Create other slots to: 1) contain the number of fastq sequences in the object and 2) store the min/max sequence length found across all fastq sequences (single min/max across the whole dataset, not min/max per sequence).
+46.  Create another class that has a slot to contain a list of your S4 fastq objects, and has a method to read in a fastq file provided as an argument. Create other slots in the object to: 1) contain the number of fastq sequences in the object and 2) store the min/max sequence length found across all fastq sequences (single min/max across the whole dataset, not min/max per sequence).
 
 ## Harder plotting
-33.  Use the storms data to make a plot with a single line for each named storm, where x is the latitude and y is the longitude. The line should trace the storm's path across time. Color the path by the pressure.
+47.  Use the storms data to make a plot with a single line for each named storm, where x is the latitude and y is the longitude. The line should trace the storm's path across time. Color the path by the pressure.
 
 ## Get data from NCBI
-XX.  Get the data from SRA #SRR23690179, align to the mouse genome and call SNPs.
+48.  Get the data from SRA #SRR23690179, align to the mouse genome and call SNPs.
 
-XX.  Get data from GEO #GSE200744, do PCA on the normalized data and make a single plot showing the distribution of first ten principle components of the data, not using any scatterplots. Color each sample by normal, met or premet status.
+49.  Get the data from GEO #GSE200744, do PCA on the normalized data and make a single plot showing the first ten principle components, but don't make the traditional PC1 vs PC2 scatterplots. Color each point by normal, met or premet status.
 
 ## R loops
-I have a table of information saved in a variable called ref_info (below). Loop over each row of this table and make plots using the storms dataset with the relevant parameters. For instance the code first plot should be something like this:
+50.  I have a table of information saved in a variable called `ref_info` (below). Loop over each row of this table and make plots using the storms dataset with the relevant parameters. For instance the code first plot should be something like this:
 
 ```{r}
 ggplot(storms,
@@ -418,10 +386,8 @@ ref_info <-
             "Storm Type")
 ```
 
-
 ## Harder troubleshooting
-
-XX.  I ran the following code and got the following error:
+51.  I ran the following code and got the following error:
 Fix my mistake so that the plot is generated and explain what I did wrong.
 ```{r}
 library(tidyverse)
@@ -445,39 +411,23 @@ mutate(transcript_data,
 Error in rename(., Chromosome = chrom) : object 'chrom' not found
 ```
 
-
 ## Bash variable expansion
+52.  Create a bash array with made up file names, then loop over the array and print out both the file name and the file name without the extension (.txt, .gz, etc.) for each.
 
-XX.  Create a bash array with made up file names, then loop over the array and print out the file name and the file name without the extension (.txt, .gz, etc.) for each.
-
-XX.  Provide code to locate all uncompressed ".txt", ".sam", ".tsv" and ".csv" files in your home directory (and all downstream subdirectories) and compress them. Do this only for files larger than 5 MB.
-
-## Grep
-
-37.  #Use the Unix grep function to match the pattern "GATACA" in `/gpfs0/scratch/mvc002/infoChallenge_1.fastq.gz` on the Franklin cluster. How
-many lines had a match?
-
-## Write a program
-
-38.  #Share code written in a language other than R or bash that reads in a fastq
-file and trims 10 characters from the 3' end of the read and quality score
-fields. You can use the `/gpfs0/scratch/mvc002/infoChallenge_1.fastq.gz` file to
-test your code. 
+53.  Provide code to locate all uncompressed ".txt", ".sam", ".tsv" and ".csv" files in your home directory (and all downstream subdirectories) and compress them. Do this only for files larger than 5 MB.
 
 ------------------------------------------------------------------------
 
 # Too hard - 4 points per question
+
 ## PCA interpretation
+54.  I've attached an image of a PCA plot that I made (odd_pca.png). How would you interpret the shape of the distribution of points in this plot? What does it tell you about the data?
 
-XX.  I've attached an image of a PCA plot that I made. How would you interpret the shape of the distribution of points in this plot? What does it tell you about the data?
-
-## Finding a sequence in a fasta file?
-XX. Remake your plot of storm paths above, but put a map of the world in the background
-
-39.  #How many times does sequence "GATTACA" appear in this fasta file? `/reference/homo_sapiens/hg38/ucsc_assembly/illumina_download/Sequence/WholeGenomeFasta/genome.fa`
+## Super fancy plot
+55. Remake your plot of storm paths above, but put a map of the world in the background, with accurate lat/long locations
 
 ## Very hard troubleshooting
-XX.  I wrote a loop to make plots, but got this error:
+56.  I wrote a loop to make plots, but got this error:
 ```{r}
 [1] "1978 wind range: 10 160"
 [1] "1978 pressure range: 882 1022"
@@ -485,10 +435,11 @@ Error in 2023 - year : non-numeric argument to binary operator
 ```
 Once you fix that error, your plots will all come out the same, even though they shouldn't.
 
-What is wrong with my code? Explain and fix it so the four plots show the proper distributions.
+What is wrong with my code? Explain and fix it so the four plots show the proper distributions, while still using the loops to create the plots.
+
 Note:
-    - For each year, two histograms should look different
-    - All four histograms should be different
+    - For each year, the two histograms should look different
+    - The distribution in all four histograms should be different
     - Pay attention to the ranges printed out inside the loop compared to your plots
 ```{r}
 library(patchwork)
@@ -530,19 +481,18 @@ message("You hear maniacal laughter in the distance...")
 # I hate myself - 10 point per question
 
 ## Animate a plot
-
-XX. Remake your plot of the storm paths, with the map of the world in the background, but animate it so that each frame of the animation is a day of the year starting at Jan 1st and going through the full year. Save your results as a gif.
+57. Remake your plot of the storm paths, with the map of the world in the background, but animate it so that each frame of the animation is a day of the year starting at Jan 1st and going through the full year. All years should be plotted simultaneously. Save your results as a gif.
 
 ## Identify the mystery data type
-
-41.  #On the Franklin cluster is a folder /gpfs0/scratch/mvc002/. Inside this
+58.  On the Franklin cluster is a folder /gpfs0/scratch/mvc002/. Inside this
 folder are two files:
-  -   mysteryData_R1.fastq.gz
-  -   mysteryData_R2.fastq.gz
-  What kind of sequencing experiment are these data derived from?
+  -   mysteryData_R1.bam
+  -   mysteryData_R2.bam
+  These files are alignments for R1 and R2 from a single dataset. What type of data are these data derived from?
+
+59.  There is another file named mysteryData_otherData.bam in the same folder. What type of data is this file derived from?
 
 ## Harder programming
-
 In /gpfs0/scratch/mvc002/ there is a bcf file: 'info_challenge.bcf'. This file has SNP calls for 29 samples. I want to calculate average pairwise distances between all samples, counting the number of differing alleles at each position covered in both samples across the whole genome, then dividing by the number of comparisons for each pair of samples.
 For instance:
 given the last four columns from a single line in the file:
@@ -551,7 +501,7 @@ given the last four columns from a single line in the file:
 
 The first sample differs from the second at one allele, from the third at two alleles and the fourth at unknown alleles.
 For each position, ignore any comparison where one of the two samples isn't covered ("./.").
-Since the data aren't phased, treat 0/1 and 1/0 as the identical.
+Since the data aren't phased, treat 0/1 and 1/0 as identical.
 Remember that for each position, we are comparing two alleles, so the number of comparisons will be the number of shared sites (for each pair of samples) times two.
 
 This means the matrix of the distance for this position would be:
@@ -568,7 +518,7 @@ NaN NaN NaN NaN
 
 Your results should be a 29x29 matrix with the average pairwise distances between all samples across all positions. The correct output from this file is in /gpfs0/scratch/mvc002/info_challenge.distances.txt for reference.
 
-I wrote a script to do this on my test file and my best time running it on the cluster was just over 2 minutes.
+I wrote a script to do this on the provided file and my best time running it on the cluster was just over 2 minutes.
 
 (py3_10) [mvc002@r1pl-hpcf-h03 bioinfoTools]$ time python exec/vcfToMatrix.py --vcf test_sc_data.bcf -p 48
 
@@ -576,11 +526,11 @@ real    2m2.622s
 user    89m19.035s
 sys     1m10.783s
 
-XX. Write code that does the same thing
+60.  Write code that does the same thing
 
-XX. Beat my time
+61.  Beat my time
 
-XX.  AI-generated code is becoming more and more common. It is a very powerful tool, but what is one way that using AI-generated code can be disadvantageous? (This question was written with the assistance of GitHub Copilot.)
+62.  AI-generated code is becoming more and more common. It is a very powerful tool, but what is one way that using AI-generated code can be disadvantageous? (This question was written with the assistance of GitHub Copilot.)
 
 
 
