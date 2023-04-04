@@ -39,7 +39,8 @@ won't learn anything from that (and that's half the point of all this).
 You can put your answers in-line in the Rmd file or you can provide your answers
 another way if you prefer.
 
-**The due date will be April Xth at 11:59 PM** #############################################################################################################################################################################
+**The due date will be April 18th at 11:59 PM**
+
 
 Feel free to ask for clarification on anything!
 
