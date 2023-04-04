@@ -80,4 +80,5 @@ Feel free to ask for clarification on anything!
 <br/><br/>
 <br/><br/>
 <font size=”1”>* a plastic</font>
+<br/><br/>
 <font size=”1”>** trophy, though it may be a bit delayed since I'm in the process of fixing my 3D printer. It shouldn't take too long though.</font>
